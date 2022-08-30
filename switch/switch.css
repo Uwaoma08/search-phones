@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Lato:wght@300&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400;1,500&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,300&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    background: rgb(133,137,142);
+    background: linear-gradient(107deg, rgba(133,137,142,1) 0%, rgba(179,180,246,1) 100%);
+    width: 50%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px auto;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    margin: 80px auto;
+    height: 90px;
+    background-color: rgb(209, 212, 212);
+    border-radius: 20px;
+    padding: 12px;
+    position: relative;
+    box-shadow: 2px 9px 16px -5px rgba(209,212,212,0.65);
+}
+
+.box-text {
+    font-weight: 600;
+    font-size: 25px;
+    margin: 30px 20px;
+    color: rgb(82, 78, 78);
+}
+
+.the-white-thing{
+    height: 90px;
+    width: 90px;
+    background-color: white;
+    border-radius: 8px;
+    position: absolute;
+    left: 12;
+}
+
+.switch{
+    height: 90px;
+    width: 90px;
+    background-color: white;
+    border-radius: 8px;
+    position: absolute;
+    right: 12;
+}
